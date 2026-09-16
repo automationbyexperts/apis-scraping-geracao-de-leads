@@ -1,0 +1,331 @@
+{
+ "repo": "apis-scraping-geracao-de-leads",
+ "title": "APIs de Scraping para Geração de Leads",
+ "tagline": "Os scrapers de geração de leads mais usados da Apify, ordenados por usuários reais por mês: empresas do Google Maps, e-mails e telefones, LinkedIn e dados B2B, consulta CNPJ e fontes do Brasil e de Portugal. Sem programar, exporte para CSV, Excel ou seu CRM.",
+ "brand": "AutomationByExperts",
+ "storeCategory": "LEAD_GENERATION",
+ "storeCategoryLabel": "Lead generation",
+ "fetchLimit": 1500,
+ "topCount": 25,
+ "intro": "Uma lista curada e atualizada toda semana com os {count} actors de geração de leads que as pessoas realmente usam, escolhidos entre os {storeTotal} actors da categoria Lead Generation da Apify Store, mais as ferramentas locais para o Brasil e Portugal. Actors que ninguém executou nos últimos 30 dias ficam de fora, e cada um está organizado pela fonte de leads que cobre, para você achar em segundos uma ferramenta que funciona para prospecção local, contatos B2B, busca de e-mails ou enriquecimento de dados.",
+ "languages": [
+  {
+   "label": "English",
+   "repo": "lead-generation-scraping-apis"
+  },
+  {
+   "label": "Español",
+   "repo": "apis-scraping-generacion-de-leads"
+  },
+  {
+   "label": "Português",
+   "repo": "apis-scraping-geracao-de-leads"
+  },
+  {
+   "label": "Français",
+   "repo": "apis-scraping-generation-de-leads"
+  },
+  {
+   "label": "Ελληνικά",
+   "repo": "apis-scraping-leads-greece"
+  }
+ ],
+ "thousandsSeparator": ".",
+ "exampleActor": "compass/crawler-google-places",
+ "exampleInput": {
+  "searchStringsArray": [
+   "dentista"
+  ],
+  "locationQuery": "São Paulo, Brasil",
+  "maxCrawledPlacesPerSearch": 50,
+  "language": "pt-BR"
+ },
+ "groups": [
+  {
+   "slug": "brasil",
+   "title": "Brasil e Portugal",
+   "blurb": "Fontes locais de leads: consulta CNPJ e Receita Federal, Reclame Aqui, OLX, ZAP Imóveis, VivaReal, iFood, sites de vagas e empresas do Brasil e de Portugal.",
+   "keywords": [
+    "cnpj",
+    "receita federal",
+    "brasil",
+    "brazil",
+    "brazilian",
+    "reclame aqui",
+    "reclameaqui",
+    "olx brasil",
+    "olx brazil",
+    "zap imoveis",
+    "zap imóveis",
+    "vivareal",
+    "quintoandar",
+    "ifood",
+    "catho",
+    "vagas",
+    "gupy",
+    "infojobs brasil",
+    "mercado livre",
+    "portugal",
+    "portuguese",
+    "idealista pt",
+    "custojusto",
+    "imovirtual",
+    "olx portugal",
+    "datajud",
+    "econodata",
+    "solutudo",
+    "guia mais",
+    "telelistas",
+    "apontador",
+    "doctoralia brasil",
+    "getninjas"
+   ]
+  },
+  {
+   "slug": "google-maps",
+   "title": "Google Maps e negócios locais",
+   "blurb": "Nomes, endereços, telefones, sites, notas e avaliações de empresas no Google Maps. O jeito mais rápido de montar uma lista de leads locais.",
+   "keywords": [
+    "google maps",
+    "google places",
+    "gmaps",
+    "google business",
+    "maps scraper",
+    "google my business",
+    "places scraper"
+   ]
+  },
+  {
+   "slug": "email-finders",
+   "title": "Buscadores de e-mail e contatos",
+   "blurb": "Encontre e-mails, telefones e redes sociais a partir de sites, domínios ou nomes.",
+   "keywords": [
+    "email",
+    "e-mail",
+    "contact detail",
+    "contact info",
+    "phone number",
+    "contacts scraper",
+    "mail finder"
+   ]
+  },
+  {
+   "slug": "linkedin",
+   "title": "LinkedIn e perfis B2B",
+   "blurb": "Perfis de pessoas e empresas, cargos, funcionários e buscas estilo Sales Navigator no LinkedIn.",
+   "keywords": [
+    "linkedin",
+    "sales navigator"
+   ]
+  },
+  {
+   "slug": "b2b-databases",
+   "title": "Bases de dados de empresas B2B",
+   "blurb": "Dados de empresas, tomadores de decisão e listas do Apollo, Crunchbase, ZoomInfo e fontes parecidas.",
+   "keywords": [
+    "apollo",
+    "crunchbase",
+    "zoominfo",
+    "lusha",
+    "rocketreach",
+    "seamless",
+    "company data",
+    "companies house",
+    "company register",
+    "firmographic",
+    "b2b",
+    "leads database",
+    "people data",
+    "decision maker"
+   ]
+  },
+  {
+   "slug": "directories",
+   "title": "Diretórios de empresas e avaliações",
+   "blurb": "Yelp, Trustpilot, Clutch, páginas amarelas e outros diretórios onde as empresas publicam seus contatos.",
+   "keywords": [
+    "yellow pages",
+    "yellowpages",
+    "yelp",
+    "trustpilot",
+    "clutch",
+    "bbb",
+    "tripadvisor",
+    "directory",
+    "g2",
+    "capterra",
+    "angi",
+    "thumbtack",
+    "houzz",
+    "justdial",
+    "pages jaunes",
+    "gelbe seiten",
+    "yell"
+   ]
+  },
+  {
+   "slug": "social-leads",
+   "title": "Leads de redes sociais",
+   "blurb": "Contatos e dados de audiência de perfis do Instagram, Facebook, TikTok, X, YouTube e Reddit.",
+   "keywords": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "twitter",
+    "youtube",
+    "reddit",
+    "threads",
+    "pinterest",
+    "telegram",
+    "whatsapp",
+    "discord",
+    "influencer"
+   ]
+  },
+  {
+   "slug": "enrichment-verification",
+   "title": "Enriquecimento e validação",
+   "blurb": "Valide e-mails e telefones, enriqueça um domínio ou uma pessoa com mais campos e limpe sua lista antes da prospecção.",
+   "keywords": [
+    "email verif",
+    "verifier",
+    "validator",
+    "email validat",
+    "phone validat",
+    "enrichment",
+    "enrich",
+    "whois",
+    "tech stack",
+    "builtwith",
+    "wappalyzer",
+    "similarweb",
+    "skip trac",
+    "reverse phone",
+    "reverse email",
+    "people search",
+    "osint"
+   ]
+  },
+  {
+   "slug": "jobs-hiring-signals",
+   "title": "Sinais de contratação e sites de vagas",
+   "blurb": "Empresas contratando agora, um sinal de compra forte para recrutadores e vendas B2B.",
+   "keywords": [
+    "job",
+    "indeed",
+    "glassdoor",
+    "hiring",
+    "career",
+    "recruit"
+   ]
+  }
+ ],
+ "fallbackGroup": {
+  "slug": "other-lead-sources",
+  "title": "Outras fontes de leads",
+  "blurb": "Eventos, marketplaces, corretores de imóveis, registros públicos e qualquer outra fonte de nicho.",
+  "keywords": []
+ },
+ "extraSearches": [
+  {
+   "group": "brasil",
+   "terms": [
+    "cnpj",
+    "receita federal",
+    "brasil",
+    "brazil",
+    "reclame aqui",
+    "zap imoveis",
+    "vivareal",
+    "ifood",
+    "vagas brasil",
+    "brazil jobs",
+    "portugal",
+    "custojusto",
+    "imovirtual",
+    "datajud",
+    "quintoandar",
+    "olx brazil"
+   ]
+  }
+ ],
+ "featured": [
+  "canada411-ca",
+  "github-developer-leads",
+  "reddit-lead-finder",
+  "podcast-guest-finder",
+  "journalist-request-finder",
+  "luma-events-scraper",
+  "geo-grid-local-rank-tracker",
+  "dealer-inventory-scraper",
+  "email-deliverability-auditor",
+  "thebluebook-scraper"
+ ],
+ "faq": [
+  [
+   "Qual é o melhor extrator de leads do Google Maps?",
+   "O mais usado está no topo da seção Google Maps. Escolha primeiro por usuários por mês e depois confira se ele traz os campos de que você precisa (e-mails e redes sociais costumam ser uma etapa extra)."
+  ],
+  [
+   "Extrair dados de contato de empresas é permitido pela LGPD?",
+   "Coletar informações públicas de empresas costuma ser permitido, mas a LGPD no Brasil e o RGPD em Portugal continuam valendo para como você armazena e usa esses dados, principalmente dados de pessoas físicas. Confira os termos do site e a lei antes de fazer prospecção."
+  ],
+  [
+   "Posso mandar os leads direto para o meu CRM?",
+   "Sim. A Apify integra com HubSpot, RD Station via webhook, Google Sheets, Zapier, Make e n8n, e cada execução pode disparar um webhook ao terminar."
+  ],
+  [
+   "Preciso de proxies ou servidores próprios?",
+   "Não. Os actors rodam na nuvem da Apify e cuidam de proxies e navegadores para você."
+  ]
+ ],
+ "ui": {
+  "statsLine": "**{count} actors em uso** | **{storeTotal} analisados** | **{topics} temas** | Atualizado em {today}",
+  "startFree": "Comece grátis na Apify",
+  "llmsLink": "llms.txt para assistentes de IA",
+  "customLink": "Scrapers sob medida",
+  "languages": "Idiomas",
+  "whatIs": "O que é isto?",
+  "howItWorks": "Cada item é uma ferramenta na nuvem (um \"Actor\") da plataforma Apify: você abre, preenche a entrada, clica em Start e baixa os resultados em JSON, CSV ou Excel, ou chama pelo seu código com a API da Apify. Toda conta nova recebe crédito mensal grátis, o suficiente para testar a maioria destes actors sem pagar.",
+  "descriptionNote": "> Os títulos e descrições dos actors vêm da Apify Store como estão, quase sempre em inglês. Os formulários de entrada aceitam buscas em português.",
+  "contents": "Conteúdo",
+  "topTitle": "Os {n} mais usados",
+  "topIntro": "Ordenados por quantas pessoas diferentes executaram cada um nos últimos 30 dias.",
+  "colActor": "Actor",
+  "colWhat": "O que faz",
+  "colUsers": "Usuários por mês",
+  "colRating": "Avaliação",
+  "by": "por",
+  "seeAll": "Ver os {n} actors de {title}",
+  "ownTitle": "Mantidos por nós",
+  "ownIntro": "Actors criados e mantidos pela [{brand}]({site}), a equipe por trás desta lista. Bugs reportados na aba Issues da Apify costumam ser corrigidos em poucos dias.",
+  "chooseTitle": "Como escolher um actor",
+  "choose": [
+   "**Usuários por mês** é o melhor sinal: conta as pessoas diferentes que executaram o actor nos últimos 30 dias, então ferramentas abandonadas ficam no fim.",
+   "**Avaliação** vem das resenhas da Apify Store. Nota 4,5 ou mais com dezenas de resenhas indica dados confiáveis.",
+   "**Modelo de preço** muda de actor para actor (pagamento por resultado, por evento ou aluguel mensal). O preço atual aparece sempre na página do actor, compare lá antes de uma execução grande.",
+   "**Faça um teste pequeno primeiro.** Limite a entrada a 10 ou 20 resultados, confira os campos de que precisa e depois aumente."
+  ],
+  "runTitle": "Como executar",
+  "run": [
+   "[Crie uma conta grátis na Apify]({signup}) (sem cartão).",
+   "Abra qualquer actor da lista e clique em **Try for free**.",
+   "Preencha o formulário de entrada (buscas, URLs ou filtros) e clique em **Start**.",
+   "Baixe os resultados na aba **Output**, ou agende o actor e envie os dados para Google Sheets, Zapier, Make, n8n ou um webhook."
+  ],
+  "fromCode": "Pelo código, todos os actors usam a mesma API:",
+  "faqTitle": "Perguntas frequentes",
+  "faqUpdatedQ": "Com que frequência esta lista é atualizada?",
+  "faqUpdatedA": "Uma GitHub Action reconstrói a lista toda semana com a API pública da Apify Store, então actors novos aparecem e os abandonados saem automaticamente.",
+  "faqAddQ": "Posso adicionar meu actor?",
+  "faqAddA": "Publique na Apify Store na categoria {category}. Assim que as pessoas começarem a usar, ele entra na lista na próxima atualização semanal. Não precisa de pull request.",
+  "customTitle": "Precisa de um scraper sob medida?",
+  "customText": "Se nenhum actor atende a sua fonte, a [{brand}]({site}) cria e mantém scrapers da Apify sob medida. Escreva para {email} com o site e os campos de que você precisa.",
+  "footer": "Se esta lista economizou seu tempo, uma estrela ajuda outras pessoas a encontrá-la. Os links para a Apify têm um código de indicação que ajuda a manter a lista, sem custo extra para você.",
+  "groupPageTitle": "{title}: {n} actors da Apify",
+  "groupPageIntro": "Parte de [{catalog}](../README.md). Ordenados por usuários por mês. Atualizado em {today}.",
+  "groupPageCta": "[Crie uma conta grátis na Apify]({signup}) para executar qualquer um deles.",
+  "llmsIntro": "Atualizado em {today}. Usuários por mês = pessoas diferentes nos últimos 30 dias. Os links incluem um código de indicação.",
+  "llmsUsers": "{n} usuários por mês"
+ }
+}
